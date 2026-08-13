@@ -3,7 +3,7 @@
 - [**BUỔI 1: NHẬP MÔN CSDL**](#buổi-1-nhập-môn-csdl)
   - [1. CSDL là gì?](#1-csdl-là-gì)
   - [2. Hệ quản trị CSDL là gì ?](#2-hệ-quản-trị-csdl-là-gì-)
-  - [4. Câu lệnh tạo database, table trong MS SQL Server](#4-câu-lệnh-tạo-database-table-trong-ms-sql-server)
+  - [3. Câu lệnh tạo database, table trong MS SQL Server](#3-câu-lệnh-tạo-database-table-trong-ms-sql-server)
 ---
 ## 1. CSDL là gì?
 - Cơ sở dữ liệu (Database) là một tập hợp các dữ liệu được tổ chức, sắp xếp có cấu trúc và có liên quan với nhau. Chúng thường được lưu trữ và truy cập dưới dạng điện tử trong hệ thống máy tính.
@@ -19,7 +19,7 @@
 
 - Ví dụ phổ biến: Microsoft SQL Server, MySQL, Oracle, PostgreSQL, MongoDB,...
 ---
-## 4. Câu lệnh tạo database, table trong MS SQL Server
+## 3. Câu lệnh tạo database, table trong MS SQL Server
 - Tạo cơ sở dữ liệu:
 ``` sql
 CREATE DATABASE ten_data_base;
