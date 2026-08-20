@@ -1,5 +1,19 @@
 # **BUỔI 2: CƠ BẢN VỀ THIẾT KẾ CƠ SỞ DỮ LIỆU**
 ---
+- [**BUỔI 2: CƠ BẢN VỀ THIẾT KẾ CƠ SỞ DỮ LIỆU**](#buổi-2-cơ-bản-về-thiết-kế-cơ-sở-dữ-liệu)
+  - [1. Lý thuyết cơ bản về thiết kế cơ sở dữ liệu:](#1-lý-thuyết-cơ-bản-về-thiết-kế-cơ-sở-dữ-liệu)
+  - [2. Lược đồ quan hệ E-R:](#2-lược-đồ-quan-hệ-e-r)
+    - [2.1 Thực thể:](#21-thực-thể)
+    - [2.2 Thuộc tính:](#22-thuộc-tính)
+    - [2.3: Quan hệ:](#23-quan-hệ)
+  - [](#)
+  - [3. Mô hình dữ liệu quan hệ:](#3-mô-hình-dữ-liệu-quan-hệ)
+  - [](#-1)
+  - [4. Chuẩn hóa dữ liệu: 1NF, 2NF, 3NF:](#4-chuẩn-hóa-dữ-liệu-1nf-2nf-3nf)
+    - [4.1. Chuẩn hóa 1NF:](#41-chuẩn-hóa-1nf)
+    - [4.2. Chuẩn hóa 2NF:](#42-chuẩn-hóa-2nf)
+    - [4.3. Chuẩn hóa 3NF:](#43-chuẩn-hóa-3nf)
+
 ---
 ## 1. Lý thuyết cơ bản về thiết kế cơ sở dữ liệu:
 - Thiết kế cơ sở dữ liệu có thể được định nghĩa là một tập hợp các thủ tục đảm bảo hệ thống lưu trữ dữ liệu hiệu quả, nhất quán và dễ mở rộng
