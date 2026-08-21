@@ -48,39 +48,39 @@
 - *Ví dụ:* Học sinh Nguyễn Văn A là thực thể còn tập hợp học sinh là tập thực thể
 - Các loại thực thể:
   - Thực thể mạnh: Một thực thể mạnh là một loại thực thể có khóa chính. Thực thể mạnh không phụ thuộc vào thực thể khác trong lược đồ. Nó có một khóa chính, giúp xác định nó một cách duy nhất. 
-  ![alt text](image-18.png)
+  ![alt text](/Buoi2/image_buoi2/image-18.png)
   - Thực thể yếu: Một thực thể yếu không thể xác định được khóa chính,  thực thể yếu sẽ phụ thuộc vào 1 thực thể mạnh sở hữu nó.
-  ![alt text](image-19.png)
+  ![alt text](/Buoi2/image_buoi2/image-19.png)
 ### 2.2 Thuộc tính:
 - Thuộc tính: Là 1 đặc trưng mà trị của nó tham gia vào việc mô tả một thực thể Mỗi thuộc tính có một tập giá trị cho phép, được gọi là miền (hay tập giá trị) của thuộc tính đó.
 - *Ví dụ:* Sinh viên có họ tên, ngày sinh, mã sinh viên,...
   - Các loại thuộc tính:
     - Thuộc tính đơn: là thuộc tính không bao gồm các thành phần cấu thành
-    ![alt text](image-8.png)
+    ![alt text](/Buoi2/image_buoi2/image-8.png)
     - Thuộc tính kép: là thuộc tính bao gồm các thành phần con cấu thành
-    ![alt text](image-10.png)
+    ![alt text](/Buoi2/image_buoi2/image-10.png)
     - Thuộc tính đa trị: Thuộc tính đa giá trị là thuộc tính có nhiều hơn một giá trị cho một thực thể nhất định
-    ![alt text](image-9.png)
+    ![alt text](/Buoi2/image_buoi2/image-9.png)
     - Thuộc tính dẫn xuất: Thuộc tính có thể được suy ra từ các thuộc tính khác của kiểu thực thể được gọi là thuộc tính dẫn xuất
-    ![alt text](image-11.png)
+    ![alt text](/Buoi2/image_buoi2/image-11.png)
     - Thuộc tính khóa chính: Thuộc tính xác định duy nhất mỗi thực thể trong tập thực thể được gọi là thuộc tính khóa
-    ![alt text](image-12.png)
+    ![alt text](/Buoi2/image_buoi2/image-12.png)
     - Thuộc tính khóa phân biệt của một tập thực thể yếu
 ### 2.3: Quan hệ:
 - Quan hệ: Là sự liên kết hoặc tương tác có ý nghĩa thực tế giữa hai hay nhiều thực thể cụ thể.
 - *Ví dụ:* Học sinh Nguyễn Văn A đăng ký môn Cơ sở dữ liệu (sự kiện "đăng ký" chính là một quan hệ)
 - Với một tập quan hệ hai ngôi R giữa tập thực thể A và B, ánh xạ lực lượng liên kết gồm:
   - 1 : 1: Khi mỗi thực thể trong mỗi tập hợp thực thể chỉ có thể tham gia một lần vào mối quan hệ
-  ![alt text](image-13.png)
+  ![alt text](/Buoi2/image_buoi2/image-13.png)
   - 1 : N: một thực thể có thể được liên kết với nhiều thực thể khác
-  ![alt text](image-14.png)
+  ![alt text](/Buoi2/image_buoi2/image-14.png)
   - N : 1: Tương tự 1 : N
-  ![alt text](image-16.png)
+  ![alt text](/Buoi2/image_buoi2/image-16.png)
   - N : N: Khi các thực thể trong tất cả các tập thực thể có thể tham gia nhiều hơn một lần vào mối quan hệ
-  ![alt text](image-15.png)
+  ![alt text](/Buoi2/image_buoi2/image-15.png)
 - Tham gia toàn bộ: Mỗi thực thể trong tập thực thể phải tham gia vào mối quan hệ
 - Tham gia một phần: Thực thể trong tập hợp thực thể có thể tham gia hoặc KHÔNG tham gia vào mối quan hệ
-  ![alt text](image-17.png)
+  ![alt text](/Buoi2/image_buoi2/image-17.png)
 ---
 ## 3. Mô hình dữ liệu quan hệ:
 - Mô hình dữ liệu quan hệ do Edgar F. Codd đề xuất năm 1970, tổ chức dữ liệu thành các bảng hai chiều gồm hàng và cột, bao gồm các thành phần:
@@ -93,9 +93,9 @@
     - Tên của quan hệ thường là tên của thực thể.
     - Mỗi thuộc tính đơn của thực thể là một thuộc tính của lược đồ quan hệ.
     - Thuộc tính xác định thực thể trở thành khóa chính của quan hệ tương ứng.
-![alt text](image-1.png)
+![alt text](/Buoi2/image_buoi2/image-1.png)
     - Thuộc tính kép: Nếu thực thể có thuộc tính kép thì chỉ những thuộc tính đơn của thuộc tính kép này được đưa vào lược đồ quan hệ mới.
-![alt text](image-2.png)
+![alt text](/Buoi2/image_buoi2/image-2.png)
     - Thuộc tính đa trị: Nếu một thực thể thường có một thuộc tính đa trị thì hai lược đồ quan hệ mới sẽ được tạo ra.
       - Lược đồ quan hệ thứ nhất chứa tất cả các thuộc tính của thực thể trừ thuộc tính đa trị.
       - Lược đồ quan hệ thứ hai sẽ có hai thuộc tính cấu thành khóa chính.
@@ -103,12 +103,12 @@
       => nó sẽ trở thành khóa ngoại trong lược đồ thứ hai.
         - Thuộc tính thứ hai là thuộc tính đa trị.
       - Tên của lược đồ thứ hai nên được đặt để thể hiện ngữ nghĩa của thuộc tính đa trị.
-![alt text](image-3.png)
+![alt text](/Buoi2/image_buoi2/image-3.png)
   - Bước 2. Chuyển đổi thực thể yếu
     - Đối với thực thể yếu, tạo một lược đồ quan hệ mới và đưa tất cả các thuộc tính đơn (hoặc các thành phần đơn của các thuộc tính kép) vào thành thuộc tính của lược đồ quan hệ này.
     - Sau đó, thêm khóa chính của quan hệ xác định vào thành một thuộc tính khóa ngoại trong lược đồ quan hệ mới.
     - Khóa chính của lược đồ quan hệ mới là sự kết hợp của khoá chính của quan hệ xác định và thuộc tính phân biệt của thực thể yếu.
-![alt text](image-4.png)
+![alt text](/Buoi2/image_buoi2/image-4.png)
   - Bước 3. Chuyển đổi các quan hệ
     - Quan hệ 1-1:
       - Thêm khóa chính của thực thể A vào thực thể B để thành khóa ngoại cho thực thể B
@@ -120,11 +120,11 @@
       - Thêm các thuộc tính khóa chính của thực thể bên phía 1 của mối quan hệ thành khóa ngoại cho quan hệ nằm ở bên phía N của mối quan hệ (khóa chính lấy từ bên phía N của mối quan hệ).
 ⇒ Khóa ngoại nằm ở phía Nhiều
       - Quan hệ 1-N và N-1 là đối xứng nhau.
-![alt text](image-5.png)
+![alt text](/Buoi2/image_buoi2/image-5.png)
     - Quan hệ N-N
       - Đầu tiên phải tạo thêm một lược đồ quan hệ mới C. Khóa của lược đồ C là sự kết hợp khóa chính của các tập thực thể tham gia vào quan hệ và các khóa chính này cũng là khóa ngoại của C.
       - Các thuộc tính không phải là khóa mà liên quan tới quan hệ N-N giữa A và B cũng được đưa vào lược đồ quan hệ C.
-![alt text](image-6.png)
+![alt text](/Buoi2/image_buoi2/image-6.png)
 ---
 ## 4. Chuẩn hóa dữ liệu: 1NF, 2NF, 3NF:
 ### 4.1. Chuẩn hóa 1NF:
