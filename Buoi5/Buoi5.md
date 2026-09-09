@@ -1,4 +1,19 @@
 # BUỔI 5: CÁC KIẾN THỨC CƠ BẢN
+---
+- [BUỔI 5: CÁC KIẾN THỨC CƠ BẢN](#buổi-5-các-kiến-thức-cơ-bản)
+  - [1. HTTP là gì](#1-http-là-gì)
+    - [1.1 Các method trong HTTP](#11-các-method-trong-http)
+    - [1.2 HTTP Request và HTTP Response](#12-http-request-và-http-response)
+      - [1.2.1 HTTP Request](#121-http-request)
+      - [1.2.2 HTTP Response](#122-http-response)
+  - [2. API và RestAPI](#2-api-và-restapi)
+    - [2.1 API](#21-api)
+    - [2.2 RestAPI](#22-restapi)
+  - [3. Design pattern DI, IOC](#3-design-pattern-di-ioc)
+    - [3.1 IoC (Inversion of Control - Đảo ngược điều khiển)](#31-ioc-inversion-of-control---đảo-ngược-điều-khiển)
+    - [3.2 Dependency Injection (DI) – Tiêm Phụ Thuộc](#32-dependency-injection-di--tiêm-phụ-thuộc)
+
+---
 ## 1. HTTP là gì
 **HTTP (HyperText Transfer Protocol - Giao thức truyền tải siêu văn bản)** là một trong các giao thức chuẩn về mạng Internet, được dùng để liên hệ thông tin giữa Máy cung cấp dịch vụ (Web server) và Máy sử dụng dịch vụ (Web client), là giao thức Client/Server dùng cho World Wide Web – WWW
 
@@ -69,6 +84,7 @@ Content-Length: 145
   }
 }
 ```
+---
 ## 2. API và RestAPI
 ### 2.1 API
 Về mặt kỹ thuật, API là viết tắt của Giao diện lập trình ứng dụng (Application Programming Interface), là một tập hợp các quy tắc, giao thức và công cụ cho phép hai phần mềm hoặc hai hệ thống công nghệ khác nhau "trò chuyện" và trao đổi dữ liệu với nhau một cách an toàn.
@@ -89,6 +105,7 @@ Một API được gọi là RESTful (đạt chuẩn REST) khi nó tuân thủ n
     - PUT /users/5: Cập nhật toàn bộ thông tin của người dùng ID 5.
     - DELETE /users/5: Xóa người dùng ID 5.
   - **Quy tắc 3:** Định dạng dữ liệu trả về chuẩn hóa, dữ liệu được các REST API trao đổi thường được định dạng dưới chuẩn JSON
+---
 ## 3. Design pattern DI, IOC
 ### 3.1 IoC (Inversion of Control - Đảo ngược điều khiển)
 Trong cách lập trình truyền thống, một đối tượng sẽ tự chịu trách nhiệm trong việc tìm kiếm, khởi tạo và quản lý các đối tượng phụ thuộc mà nó cần.
