@@ -1,5 +1,30 @@
 # BUỔI 8: TỐI ƯU JPA, VALIDATION VÀ EXCEPTION HANDLING
 ---
+- [BUỔI 8: TỐI ƯU JPA, VALIDATION VÀ EXCEPTION HANDLING](#buổi-8-tối-ưu-jpa-validation-và-exception-handling)
+  - [1. Các phương pháp tối ưu JPA](#1-các-phương-pháp-tối-ưu-jpa)
+    - [1.2. Lazy / Eager initialization](#12-lazy--eager-initialization)
+      - [1.2.1 Lazy Loading](#121-lazy-loading)
+      - [1.2.2 Eager Loading](#122-eager-loading)
+    - [1.3. Pagination](#13-pagination)
+      - [1.3.1 Tổng Quan về Phân trang và Sắp xếp với Spring Data JPA](#131-tổng-quan-về-phân-trang-và-sắp-xếp-với-spring-data-jpa)
+    - [1.3.2 Triển Khai: Phân trang và Sắp xếp trong Spring Data JPA](#132-triển-khai-phân-trang-và-sắp-xếp-trong-spring-data-jpa)
+    - [1.3.3. Cách sử dụng:](#133-cách-sử-dụng)
+    - [1.4. Caching](#14-caching)
+    - [1.5. Manual / Native query](#15-manual--native-query)
+      - [1.5.1 Native query:](#151-native-query)
+    - [1.6. Dynamic query](#16-dynamic-query)
+    - [1.7. Phòng tránh N + 1 query](#17-phòng-tránh-n--1-query)
+  - [2. Tìm hiểu về Validation](#2-tìm-hiểu-về-validation)
+    - [2.1 Vì Sao Cần Validate Data Trong Spring Boot?](#21-vì-sao-cần-validate-data-trong-spring-boot)
+    - [2.2 Thêm Dependency Validation](#22-thêm-dependency-validation)
+    - [2.3 Các Annotation Validation Thường Dùng](#23-các-annotation-validation-thường-dùng)
+    - [2.4 Validate Request Body (Payload)](#24-validate-request-body-payload)
+    - [2.5. Validate PathVariable và RequestParam](#25-validate-pathvariable-và-requestparam)
+  - [3. Tìm hiểu về Exception handling](#3-tìm-hiểu-về-exception-handling)
+  - [4. Override default fetch plan với join fetch / entity graph](#4-override-default-fetch-plan-với-join-fetch--entity-graph)
+    - [4.1 JOIN và JOIN FETCH khác nhau thế nào?](#41-join-và-join-fetch-khác-nhau-thế-nào)
+    - [4.2 EntityGraph là gì?](#42-entitygraph-là-gì)
+
 ---
 ## 1. Các phương pháp tối ưu JPA
 ### 1.2. Lazy / Eager initialization
