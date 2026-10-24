@@ -24,7 +24,7 @@
   - [4. Override default fetch plan với join fetch / entity graph](#4-override-default-fetch-plan-với-join-fetch--entity-graph)
     - [4.1 JOIN và JOIN FETCH khác nhau thế nào?](#41-join-và-join-fetch-khác-nhau-thế-nào)
     - [4.2 EntityGraph là gì?](#42-entitygraph-là-gì)
-
+    
 ---
 ## 1. Các phương pháp tối ưu JPA
 ### 1.2. Lazy / Eager initialization
